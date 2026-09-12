@@ -90,7 +90,7 @@ button { font: inherit; }
 .hero-media {
   position: absolute;
   inset: 0;
-  background-image: url('https://spiritogiusto.it/media/k2/items/cache/7539a1b30386b8951ffea14c91e802dc_L.jpg');
+  background-image: url('assets/images/malto-bar.jpg');
   background-size: cover;
   background-position: center 48%;
   transform: scale(1.04);
