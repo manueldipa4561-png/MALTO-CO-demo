@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Demo website per Malto & Co, birreria e pub nel centro di Chieti: birre artigianali, hamburger, pinse e serate da vivere." />
+  <title>Malto & Co | Birre Artigianali • Chieti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Malto & Co home">
+      <span class="brand-mark">M</span>
+      <span class="brand-copy">
+        <strong>MALTO & CO</strong>
+        <small>BIRRE ARTIGIANALI · CHIETI</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Apri menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Navigazione principale">
+      <a href="#locale">Il locale</a>
+      <a href="#menu">Menu</a>
+      <a href="#birre">Birre</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#contatti" class="nav-cta">Vieni a trovarci</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Interno di Malto & Co a Chieti"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grain"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">NEL CUORE DI CHIETI</p>
+        <h1>Birra fatta<br><span>come si deve.</span></h1>
+        <p class="hero-intro">Birre artigianali, hamburger, pinse e un locale in pietra dove fermarsi senza guardare l’orologio.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Scopri il menu</a>
+          <a class="button button-ghost" href="tel:+393477133599">Chiama · 347 713 3599</a>
+        </div>
+      </div>
+
+      <div class="hero-meta reveal">
+        <div><span>MAR–DOM</span><strong>18:30 — 02:00</strong></div>
+        <div><span>DOVE</span><strong>Via degli Agostiniani 10</strong></div>
+        <div><span>PREZZO INDICATIVO</span><strong>€10–20</strong></div>
+      </div>
+    </section>
+
+    <section class="intro section" id="locale">
+      <div class="section-kicker reveal">01 · IL LOCALE</div>
+      <div class="intro-grid">
+        <div class="intro-title reveal">
+          <h2>Un pub diverso,<br>nel centro storico.</h2>
+        </div>
+        <div class="intro-copy reveal">
+          <p>Malto & Co è una birreria, pub e beer shop a Chieti, dedicata alle birre artigianali e a una cucina informale fatta per accompagnarle.</p>
+          <p>Volte in mattoni, muri in pietra, atmosfera rilassata e una proposta che spazia da hamburger e pinse romane a fritti, taglieri e opzioni vegetariane.</p>
+          <div class="feature-line">
+            <span>Birre artigianali</span>
+            <span>Hamburger</span>
+            <span>Pinse</span>
+            <span>Beer shop</span>
+          </div>
+        </div>
+      </div>
+
+      <figure class="venue-photo reveal">
+        <img src="https://spiritogiusto.it/media/k2/items/cache/7539a1b30386b8951ffea14c91e802dc_L.jpg" alt="Bancone e interno in pietra di Malto & Co" loading="lazy" />
+        <figcaption>Interno di Malto & Co · immagine pubblicata da Spirito Giusto</figcaption>
+      </figure>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-kicker">02 · DA MANGIARE</div>
+          <h2>Il menu, senza complicazioni.</h2>
+        </div>
+        <p>Una selezione pensata per stare bene con una birra: sapori netti, porzioni generose e alternative per gusti diversi.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card reveal">
+          <span class="menu-number">01</span>
+          <h3>Hamburger</h3>
+          <p>Panini con hamburger di manzo da 200 g, pulled pork, pulled chicken e proposte vegetariane.</p>
+          <small>Da €9</small>
+        </article>
+        <article class="menu-card reveal">
+          <span class="menu-number">02</span>
+          <h3>Pinse</h3>
+          <p>Pinse rosse, bianche, gourmet e focacce per una cena informale o qualcosa da condividere.</p>
+          <small>Rosse · Bianche · Gourmet</small>
+        </article>
+        <article class="menu-card reveal">
+          <span class="menu-number">03</span>
+          <h3>Fritti</h3>
+          <p>Snack e sfizi perfetti da mettere al centro del tavolo durante una serata tra amici.</p>
+          <small>Da condividere</small>
+        </article>
+        <article class="menu-card reveal">
+          <span class="menu-number">04</span>
+          <h3>Da bere</h3>
+          <p>Birre artigianali, vini rossi, bianchi, rosati e bollicine.</p>
+          <small>Birra · Vino · Bollicine</small>
+        </article>
+      </div>
+
+      <div class="menu-highlight reveal">
+        <div>
+          <p class="eyebrow">DAL MENU ONLINE</p>
+          <h3>Pecorino abruzzese, crema di ventricina teramana e valeriana.</h3>
+        </div>
+        <div class="menu-highlight-price">
+          <span>Hamburger di manzo 200 g</span>
+          <strong>€11</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="beer-section section" id="birre">
+      <div class="beer-copy reveal">
+        <div class="section-kicker">03 · BIRRE</div>
+        <h2>Il malto è<br>il punto di partenza.</h2>
+        <p>Il cuore del locale è la selezione di birre artigianali, alla spina e in bottiglia. Le fonti pubbliche citano anche produzioni proprie e degustazioni.</p>
+        <a class="text-link" href="tel:+393477133599">Chiedi cosa c’è alla spina oggi <span>↗</span></a>
+      </div>
+
+      <div class="beer-art reveal" aria-hidden="true">
+        <div class="beer-ring ring-one"></div>
+        <div class="beer-ring ring-two"></div>
+        <div class="beer-glass">
+          <div class="foam foam-1"></div>
+          <div class="foam foam-2"></div>
+          <div class="foam foam-3"></div>
+          <div class="beer-liquid"></div>
+        </div>
+        <p>CRAFT<br>BEER</p>
+      </div>
+    </section>
+
+    <section class="reviews section" id="recensioni">
+      <div class="section-kicker reveal">04 · RECENSIONI</div>
+      <div class="review-stats reveal">
+        <div class="score-block">
+          <strong>4.6</strong>
+          <span>Google</span>
+          <small>341 recensioni</small>
+        </div>
+        <div class="score-block">
+          <strong>4.4</strong>
+          <span>Tripadvisor</span>
+          <small>69 recensioni</small>
+        </div>
+        <div class="review-quote">
+          <p>Gli ospiti citano spesso le birre artigianali, l’ambiente rustico e accogliente e la cortesia dello staff.</p>
+          <small>Temi ricorrenti nelle recensioni pubbliche</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section" id="contatti">
+      <div class="visit-panel reveal">
+        <div class="visit-top">
+          <div>
+            <div class="section-kicker">05 · VIENI A TROVARCI</div>
+            <h2>Una birra<br>in centro?</h2>
+          </div>
+          <a class="round-arrow" href="https://www.google.com/maps/search/?api=1&query=Via+degli+Agostiniani+10+Chieti" target="_blank" rel="noopener" aria-label="Apri indicazioni su Google Maps">↗</a>
+        </div>
+
+        <div class="visit-grid">
+          <div>
+            <span>INDIRIZZO</span>
+            <strong>Via degli Agostiniani 10<br>66100 Chieti (CH)</strong>
+          </div>
+          <div>
+            <span>ORARI</span>
+            <strong>Martedì — Domenica<br>18:30 — 02:00</strong>
+          </div>
+          <div>
+            <span>TELEFONO</span>
+            <a href="tel:+393477133599">+39 347 713 3599</a>
+          </div>
+          <div>
+            <span>SOCIAL</span>
+            <a href="https://www.instagram.com/maltoeco/" target="_blank" rel="noopener">Instagram @maltoeco ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">MALTO <span>&</span> CO</div>
+    <div class="footer-meta">
+      <span>Demo website concept</span>
+      <span>Chieti · Abruzzo</span>
+      <a href="#top">Torna su ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
